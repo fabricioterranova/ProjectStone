@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ProjectStone</string>
+
+    <!-- Product Strings -->
+    <string name="title">Titulo</string>
+    <string name="quantity">Quantidade</string>
+    <string name="category">Categoria</string>
+    <string name="value">Valor</string>
+    <string name="label_buy">Comprar</string>
+
+    <string name="label_amount">Valor a pagar </string>
+    <string name="label_creditcard_detail">Dados do Cartão de Crédito</string>
+
+    <string name="label_cc_owner">Nome do portador do cartão</string>
+    <string name="label_cc_number">Numero do cartão</string>
+    <string name="label_cc_month">Mês de vencimento</string>
+    <string name="label_cc_year">Ano de vencimento</string>
+    <string name="label_cc_flag">Bandeira do cartão</string>
+    <string name="label_cc_cvv">Código de Verificacão do cartão</string>
+
+    <string name="label_send">Enviar</string>
+
+    <string name="label_required">Preenchimento obrigatório.</string>
+
+    <string name="label_payment">Verificando Pagamento...</string>
+
+
+</resources>

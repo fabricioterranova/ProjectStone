@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_produto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_title"
+        android:textSize="@dimen/title"
+        android:layout_alignTop="@id/img_produto"
+        android:layout_toRightOf="@id/img_produto"
+        android:textStyle="bold"
+        android:text="@string/title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_title"
+        android:id="@+id/txt_qtde"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@id/img_produto"
+        android:text="@string/quantity"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_categoria"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/img_produto"
+        android:layout_below="@id/txt_qtde"
+        android:textSize="@dimen/category"
+        android:text="@string/category"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_valor"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/value"
+        android:text="@string/value"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/btn_buy"
+        android:layout_below="@id/txt_categoria"
+        android:layout_toRightOf="@id/img_produto"
+        android:layout_margin="5dp"
+        android:background="#64d048"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/label_buy"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>
